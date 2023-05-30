@@ -3,11 +3,14 @@ ImageFile.LOAD_TRUNCATED_IMAGES = True
 import os
 
 def generate_badges(template_path, image_directory, output_directory):
+
+    # Get info from user
     print('What font should the program use? Example: Poppins-Bold.ttf')
     whatfont = input()
     print('Specify starting tag, the program will count up by 1 for each badge.')
     tag = input()
     tag = int(tag)
+
     # Iterate through the image files in the directory
     for filename in os.listdir(image_directory):
         if filename.endswith(".jpg") or filename.endswith(".png"):
@@ -42,6 +45,7 @@ def generate_badges(template_path, image_directory, output_directory):
             draw.text((tag_x, tag_y), '#'+str(tag), fill=(255, 255, 255), font=font)
             tag = tag+1
 
+            # Generate the output
             output_path = os.path.join(output_directory, f"{nickname}_badge.png")
             template_copy.save(output_path)
 
@@ -50,8 +54,7 @@ def generate_badges(template_path, image_directory, output_directory):
 
         template_image.close()
 
-
-# Usage example
+# Specify folders
 template_path = "badgetemplate/badgetemplate.png"
 image_directory = "badgeimages/"
 output_directory = "badgeoutput/"
