@@ -4,7 +4,7 @@ BadgeGenerator is a very simple program allowing you to batch-generate personali
 
 ## Installation
 
-Download the latest release from the releases tab and run th exe.
+Download the latest release from the releases tab and run the exe.
 
 ## Usage
 
