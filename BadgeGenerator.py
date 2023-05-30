@@ -53,3 +53,6 @@ image_directory = "badgeimages/"
 output_directory = "badgeoutput/"
 
 generate_badges(template_path, image_directory, output_directory)
+
+print('The program has finished. Press enter to continue.')
+x = input()
