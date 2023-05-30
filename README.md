@@ -4,12 +4,8 @@ BadgeGenerator is a very simple program allowing you to batch-generate personali
 
 ## Installation
 
-Download the latest release from the releases tab and run
-
-```bash
-BadgeGeneratorInstaller.exe
-```
+Download the latest release from the releases tab and run th exe.
 
 ## Usage
 
-Import the badge template, import a range of icons and import a list of nicknames from a text file.
+Put the badge template (PNG) in the 'badgetemplate' folder, put a range of icons (JPG or PNG, 1000x1000) in the 'badgeimages' folder.
