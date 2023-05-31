@@ -14,3 +14,5 @@ You can put custom fonts in .ttf format in program folder, select them during ru
 ## Disclaimer
 
 The program is in very early stages of development, this is only a prototype. For now, any change to the image position has to be done manually in the code.
+
+https://img.shields.io/github/downloads/KittyKite/Kitty-BadgeGenerator/total
